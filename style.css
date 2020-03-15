@@ -1,0 +1,365 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.jumbotron {
+    width: 100%;
+    height: 520px;
+    padding: 20%;
+    color: white;
+    text-align: center;
+}
+
+.jbbg1 {
+    background-image: url(port2.jpg);
+    background-size: cover;
+     color: seashell;
+}
+
+.jbbg2 {
+    background-image: url(second.jpg);
+    background-size: cover;
+}
+
+.jbbg3 {
+    background-image: url(third.jpg);
+    background-size: cover;
+}
+
+.p {
+    text-align: center;
+}
+
+.navbg {
+    background-image: url(navbg.jpg);
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
+
+
+.gal_img:hover{
+    transform: scale(1.1);
+    
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px 20px 20px;
+    text-decoration: none;
+    text-align: center;
+    position: relative;
+  }
+
+nav a:hover {
+    color: black;
+    transform: scale(1.2);
+}
+
+.paragraph {
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+footer {
+    margin: 6;
+    text-align: center;
+}
+
+
+img  {
+    width: 80%;
+}
+
+h5 {
+    color: grey;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.gallerycap {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.spacing {
+    padding: 5%;
+    margin-bottom: 5%;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    width: 100%;
+  }
+
+  ul
+{
+    list-style-type:none;
+    padding:0px;
+    margin:0px;
+}
+
+.marcon {
+    margin: 1%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+}
+
+.td1 {
+    column-span: 2;
+    padding: 10px 20px;
+}
+
+.td2 {
+    
+    padding: 20px;
+    vertical-align: top;
+}
+
+.td2 img{
+    width: 50%;
+    height: auto;
+}
+
+.td3 {
+    column-span: 2;
+    padding: 5px;
+    text-align: center;
+}
+
+.card_size {
+width: 100%;
+height: 230px;
+}
+
+.card1 {
+    background-image: url(pic2.jpg);
+}
+
+.pslide {
+    font-weight: 100;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.pretext {
+    color: grey;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+
+.h1spacing{
+    padding-bottom: 2%;
+    font-size: 60px;
+}
+
+
+.gallery img {
+    width: 80%;
+    height: auto;
+    transition: .5s;
+}
+
+
+.gallery img:hover {
+    filter: saturate(150%);
+    transform:scale(1.01) ;
+}
+
+.responsive {
+    padding: 0 6px;
+    width: 33.33%;
+    float: left;
+}
+
+
+@media only screen and (max-width: 900px){
+.responsive {
+        padding: 0 6px;
+        width: 50%;
+    }
+
+.jumbotron {
+    width: 50%;
+    height: 260px;
+    padding: 10%;
+    color: white;
+    text-align: center;
+    }
+
+}
+
+@media only screen and (max-width: 700px){
+.responsive {
+        width: 100%;
+    } 
+.jumbotron {
+    width: 25%;
+    height: 130px;
+    padding: 5%;
+    color: white;
+    text-align: center;
+} 
+}
+
+.cattext {
+    padding-top: 25%;
+    font-family: monospace;
+    font-size: 70px;
+    text-align: center;
+}
+
+.jumbotronport {
+    width: 100%;
+    height: 600px;
+    padding: 20%;
+    color: white;
+    text-align: center;
+}
+
+.portfoliojbbg1 {
+background-image: url(nature/1.jpg);
+background-size: cover;
+}
+
+
+.portfoliojbbg2 {
+    background-image: url(nature/2.jpg);
+    background-size: cover;
+    }
+
+.portfoliojbbg3 {
+    background-image: url(nature/3.jpg);
+    background-size: cover;
+    }
+
+.portfoliojbbg4 {
+    background-image: url(nature/4.jpg);
+    background-size: cover;
+    }
+
+    
+.portfoliojbbg5 {
+background-image: url(nature/5.jpg);
+background-size: cover;
+}
+
+
+.portfoliojbbg6 {
+    background-image: url(nature/6.jpg);
+    background-size: cover;
+    }
+
+.portfoliojbbg7 {
+    background-image: url(portrait/debut.jpg);
+    background-size: cover;
+    }
+
+.portfoliojbbg8 {
+    background-image: url(portrait/debut1.jpg);
+    background-size: cover;
+    }
+
+    .portfoliojbbg9 {
+        background-image: url(portrait/dike.jpg);
+        background-size: cover;
+        }
+    
+    .portfoliojbbg10 {
+        background-image: url(portrait/mavis.jpg);
+        background-size: cover;
+        }
+    
+        
+    .portfoliojbbg11 {
+    background-image: url(portrait/princess.jpg);
+    background-size: cover;
+    }
+    
+    
+    .portfoliojbbg12 {
+        background-image: url(abstract/1.jpg);
+        background-size: cover;
+        }
+    
+    .portfoliojbbg13 {
+        background-image: url(abstract/2.jpg);
+        background-size: cover;
+        }
+    
+    .portfoliojbbg14 {
+        background-image: url(abstract/3.jpg);
+        background-size: cover;
+        }
+
+        .portfoliojbbg15 {
+            background-image: url(abstract/4.jpg);
+            background-size: cover;
+            }
+        
+        .portfoliojbbg16 {
+            background-image: url(abstract/5.jpg);
+            background-size: cover;
+            }
+        
+        .portfoliojbbg17 {
+            background-image: url(abstract/6.jpg);
+            background-size: cover;
+            }
+
+.pp{
+    font-family: monospace;
+    font-size: large;
+}
+
+.divpadding {
+    padding: 0 5% 5% 5%;
+}
+
+.h5justify {
+ text-align: justify;
+}
+
+.h5left {
+    text-align: left;
+    border-style: outset;
+    padding: 2%;
+}
+
+.h5right {
+    text-align: right;
+}
+
+table {
+    table-layout: fixed;
+}
+
+table img:hover {
+    transform: scale(1.1);
+    filter: saturate(1.2);
+    transition: .5s;
+}
+
+.indexpadding {
+    padding-top: 5%;
+}
+
+.cm_padding {
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
